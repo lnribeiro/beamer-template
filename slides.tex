@@ -1,0 +1,36 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm, mathtools, gensymb, bm}
+
+\input{style.tex}
+
+\newcommand{\tran}{\mathsf{T}}
+\newcommand{\hermit}{\mathsf{H}}
+\newcommand{\mc}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\mbb}[1]{\ensuremath{\mathbb{#1}}}
+
+\title{Transceiver Design for Large-Scale Systems}
+\author{Lucas N. Ribeiro}
+\institute{Universidade Federal do Cear\'a, Fortaleza}
+\date{August 6th, 2019}
+ 
+\begin{document}
+ 
+\frame[noframenumbering,plain]{\titlepage}
+ 
+\begin{frame}[allowframebreaks]{Introduction}
+	\begin{itemize}
+		\item \emph{Sometimes} more efficient \underline{than} \alert{Newton's} method because it does not require 2nd order derivatives
+	\end{itemize}
+	\begin{gather}
+		x^2 = \sqrt{\nabla f^\tran u}\\
+		\bm{H}_u = \bm{A}_r \bm{\Gamma} \bm{A}_t^\hermit = \bm{U} \bm{\Sigma} \bm{V}^\hermit\\
+		\mc{X} = \mc{Y} \times_1 \bm{U}^\tran
+	\end{gather}
+	\begin{block}{Title}
+		Qu'est-ce que tu vois ici? Est-ce sympa?
+	\end{block}
+\end{frame}
+
+\end{document}
+
